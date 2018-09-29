@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class Sample:
 
     def __init__(self, test_var):
