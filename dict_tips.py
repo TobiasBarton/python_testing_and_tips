@@ -1,3 +1,6 @@
+import operator
+
+
 def merge_dict(x: dict, y: dict) -> dict:
     """
     Python merges dictionary keys in the order listed in the expression,
@@ -43,4 +46,7 @@ if __name__ == "__main__":
     z = merge_dict(X, Y)
     print(z)
     print(help(merge_dict))
+
+    xs = {'a': 4, 'b': 3, 'c': 2, 'd': 1}
+    print(sorted(xs.items(), key=lambda x: x[1]))
 

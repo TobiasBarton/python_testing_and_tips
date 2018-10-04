@@ -1,0 +1,3 @@
+To time snippets of code use timeit
+
+To time whole files/programs use cProfile
